@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+header{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 10;
+}
+body{background-color: #000000;}
+iframe{	position: absolute;
+	top:-50px;
+	left: 0;
+	z-index: 10;}
+
+nav#gnav li{
+	float:left;
+	position: relative; 
+	margin: 0 0 0 0;
+	}
+.natalie img{
+	position: absolute;
+	z-index: 10;
+	right: 0;
+}
+.btn01{z-index: 15;
+	top:448px;
+	left:613px;
+	position:absolute;
+}
+#float-text {
+	z-index:12;
+	position:absolute;
+	left: 81px;
+	top:313px;
+}
+
+#float-text img {
+  position:absolute;
+  left:0;
+  transition: opacity 5s ease-in-out;
+}
+
+.float-text2{
+	z-index:11;
+	position:absolute;
+	left: 18px;
+	top:126px;
+}
+.imghover1 {
+display: block;
+width: 94px;
+height: 105px;
+background: url( ../images/btn1.png);
+margin: 0 0 0 81px;
+}
+
+.imghover1:hover {
+background-image : url( ../images/btn1hov.png);
+}
+
+.imghover2 {
+display: block;
+width: 94px;
+height: 105px;
+background: url( ../images/btn2.png);
+}
+
+.imghover2:hover {
+background-image : url(../images/btn2hov.png) ;
+}
+
+#container {
+	background-color: #FF5AB6;
+	height:1027px;
+	width: 100%;
+	margin: 0 auto; 
+	position: relative;
+}
+
+
+#paramount{    position: absolute;
+    left: 613px;
+    top: 798px;
+	z-index:13;}
+
+#trailer{
+    position: absolute;
+    left: 81px;
+    top: 760px;
+}
+
+
+#container2{
+margin: 0 auto;
+width: 1366px;
+height: 5363px;
+background-image: url("../images/main2.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center top;
+background-color: #0000;
+	text-align: center;
+	position: relative;
+}
+
+img.float-text3{
+	top:3200px;
+	left:0;
+	right: 0;
+	position:absolute;
+	margin: auto ;
+    z-index: 7;}
+
+.float-text4{
+	top:2939px;
+	left:0;
+	right: 0;
+	position:absolute;
+	margin: auto ;
+    z-index: 6;}
+
+
+.book img{z-index: 4;
+position: absolute;}
+
+.btn02{z-index: 15;
+	top:790px;
+	left:914px;
+	position:absolute;
+}
+.btn03{z-index: 15;
+	top:1657px;
+	left:95px;
+	position:absolute;
+}
+.btn04{z-index: 15;
+	top:2532px;
+	left:914px;
+	position:absolute;
+}
+
+.btn05{z-index: 15;
+	top:2651px;
+	left:0;
+	right:0;
+	margin: auto;
+	position:absolute;
+}
+.btn06{z-index: 15;
+	top:4630px;
+	left:0;
+	right:0;
+	margin: auto;
+	position:absolute;
+}
+footer{text-align: center;
+	width:100%;
+	padding-top: 50px;
+	font-family: "Courier New", Courier, "monospace";
+	color: #FFFFFF;
+	clear:both;
+	background-color: #000000;
+	height: 80px;
+	
+	}
